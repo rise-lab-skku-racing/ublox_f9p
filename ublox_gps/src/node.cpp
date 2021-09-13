@@ -1069,7 +1069,7 @@ void UbloxFirmware8::getRosParams() {
 
   // GNSS enable/disable
   nh->param("gnss/gps", enable_gps_, true);
-  nh->param("gnss/galileo", enable_galileo_, false);
+  nh->param("gnss/galileo", enable_galileo_, true);
   nh->param("gnss/beidou", enable_beidou_, false);
   nh->param("gnss/imes", enable_imes_, false);
   nh->param("gnss/glonass", enable_glonass_, false);

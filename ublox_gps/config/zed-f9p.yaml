@@ -16,3 +16,5 @@ publish:
     posllh: true
     posecef: true
 
+fix_mode: 2d
+dynamic_model: automotive 
