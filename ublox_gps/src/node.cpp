@@ -1072,7 +1072,7 @@ void UbloxFirmware8::getRosParams() {
   nh->param("gnss/galileo", enable_galileo_, true);
   nh->param("gnss/beidou", enable_beidou_, false);
   nh->param("gnss/imes", enable_imes_, false);
-  nh->param("gnss/glonass", enable_glonass_, false);
+  nh->param("gnss/glonass", enable_glonass_, true);
   nh->param("gnss/qzss", enable_qzss_, false);
   nh->param("gnss/sbas", enable_sbas_, false);
   // QZSS Signal Configuration
