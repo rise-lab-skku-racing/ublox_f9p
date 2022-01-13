@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/woohyeon/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_collision_safety/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_control/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_data_resource_manager/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_devices/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_map/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_path_planner/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_perception/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_safety_manager/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_simul/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_state_estimation/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_strategy/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/rr_vms/include/**",
+        "/home/woohyeon/catkin_ws/src/racing_exercise/turtlebot_follower_ex/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/third_party/ublox_f9p/ublox_gps/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/third_party/ublox_f9p/ublox_msgs/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/third_party/ublox_f9p/ublox_serialization/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/third_party/usb_cam/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/third_party/velodyne/velodyne_driver/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/third_party/velodyne/velodyne_laserscan/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/third_party/velodyne/velodyne_pcl/include/**",
+        "/home/woohyeon/catkin_ws/src/robot_racing_2021/third_party/velodyne/velodyne_pointcloud/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
